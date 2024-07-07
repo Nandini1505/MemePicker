@@ -1,0 +1,136 @@
+body{
+    background-color: #ffedd2;
+    color: #294122;
+    margin: 0;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.nav-bar{
+    background-color: #162114;
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-gif-frame{
+    width: 80px;
+    height: 80px;
+    /* border-radius: 40px; */
+    padding: 10px;  
+}
+
+h1,h3{
+    margin: 0;
+}
+
+h2{
+    margin: 10px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio{
+    width: 250px;
+    height: 20px;
+    display: flex;
+    border: 1px solid #294122;
+    color: #294122;
+    margin: 10px;
+    font-weight: 700;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+label{
+    font-size: 14px;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.highlight{
+    background-color: #294122;
+    color: whitesmoke;
+    font-weight: bold;
+    accent-color: whitesmoke;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.gifs-check-label{
+    width: unset;
+    margin-right: 5px;
+}
+
+.get-img-btn{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #eb3d00;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* modal */
+
+.meme-box{
+    display: none; /*flex when displayed*/
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #67595e;
+    border-radius: 5px;
+    width: 420px;
+    height: 490px;
+    background-color: #fff0ee;
+}
+
+.cat-img{
+    max-width: 340px;
+    max-height: 420px;
+    border-radius: 5px;
+}
+
+.meme-close-btn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.meme-close-btn:hover{
+    color: white;
+    background-color: #bd301d;
+    border: 2px solid #bd301d;
+}
